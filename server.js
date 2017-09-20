@@ -4,6 +4,9 @@ var path = require('path'); //filesystem path
 var mime = require('mime'); //file name extension
 var cache = {};
 
+var chatServer = require('./lib/chat_server');
+chatServer.listen(server);
+
 
 
 /*-----------------------------------------------------------
